@@ -14,6 +14,7 @@ const login = (req, res = response) => {
             msg:'Login successful'
         })
     } else {
+        res.status(401);
         console.error('Login fail');
         res.json({
             userInfo: {},

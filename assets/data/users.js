@@ -6,7 +6,7 @@ const users = [
         pass: 'dayIwasBorn',
         phone: '213-1234-123',
         email: 'jondoe@domain.com',
-        city: 'Chicago',
+        city: 'Los Angeles',
         age: 45
     },
     {

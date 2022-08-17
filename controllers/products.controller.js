@@ -10,7 +10,7 @@ const getProducts = (req = request, res = response) => {
             msg:'The request was completed successfully'
         });
     }else{
-        res.statusCode = 401;
+        res.status(401);
         res.json({
             products: [], 
             msg:'Invalid access token'
