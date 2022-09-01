@@ -3,8 +3,8 @@ const users = require('../assets/data/users');
 const token = process.env.TOKEN;
 
 const login = (req, res = response) => {
-    const { userName, password } = req.body;
-    const userFound = users.find(found => found.userName === userName);
+    const { documentNumber, password } = req.body;
+    const userFound = users.find(found => found.documentNumber === documentNumber);
     if (userFound?.pass === password) {
         console.log('Login successful');
         delete userFound.password;

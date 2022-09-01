@@ -2,7 +2,7 @@ const users = [
     {
         name: 'Jon',
         lastName: 'Doe',
-        userName: 'jondoe8321',
+        documentNumber: '1166522458',
         pass: 'dayIwasBorn',
         phone: '213-1234-123',
         email: 'jondoe@domain.com',
@@ -12,7 +12,7 @@ const users = [
     {
         name: 'Martha',
         lastName: 'Becker',
-        userName: 'mbecker31',
+        documentNumber: '88547412346',
         pass: 'nameOfMyCat',
         phone: '213-1234-123',
         email: 'martha@domain.com',
